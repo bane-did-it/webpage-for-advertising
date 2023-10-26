@@ -1,0 +1,354 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+}
+
+/* Hero section styling */
+#hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* Product Details Page Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#product-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#product-details h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#product-details img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+#product-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+#product-details h2 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+#product-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#product-details li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+/* Specifications Page Styles */
+
+#specifications {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#specifications h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#specifications ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#specifications li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+/* Pricing and Purchase Page Styles */
+
+#pricing {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#pricing h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#pricing p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+#pricing .cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#pricing .cta-button:hover {
+    background-color: #0056b3;
+}
+/* Contact Us Page Styles */
+
+#contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#contact p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact .cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#contact .cta-button:hover {
+    background-color: #0056b3;
+}
+/* Add this to your CSS file */
+
+.spec-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.spec-table th, .spec-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.spec-table th {
+    background-color: #f2f2f2;
+}
+
+.spec-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/* Add this to your CSS file */
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-details li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.contact-details li:first-child {
+    font-weight: bold;
+}
+
+/* Style for the "Contact Us" section heading */
+#contact h2 {
+    background-color: #007BFF; /* Example background color */
+    color: white;
+    padding: 10px;
+}
+
+/* Style for the navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Example link color */
+}
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Pricing section styles */
+#pricing {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#pricing h2 {
+    color: #007bff;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.pricing-table th, .pricing-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.pricing-table th {
+    background-color: #007bffe3;
+    color: white;
+}
+
+.pricing-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pricing-table a {
+    text-decoration: none;
+    color: #007bffb4;
+}
+
+.pricing-table a:hover {
+    text-decoration: underline;
+}
+
+
+
